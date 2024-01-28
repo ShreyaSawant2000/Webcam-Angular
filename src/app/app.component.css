@@ -1,0 +1,193 @@
+
+
+.bg{
+  height: 1000px;
+  background-color: #FFF5E0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  text-align: center;
+  height: 60px;
+  font-weight: 800;
+  font-size: 20px;
+  text-decoration: none;
+ 
+}
+/*Button CSS*/
+.permissions{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.button-5 {
+  display: flex;
+  background-color: #37B5B6;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+ line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  
+  text-decoration: none;
+  transition: all 250ms;
+ 
+
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #95efc9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: black;
+  font-weight: 700;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #00c861;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#FF6969;
+  color: white;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* WEBCAM css*/
+webcam{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+::ng-deep .webcam-wrapper video.mirrored{
+  transform: scaleX(1) !important;
+  height: 313px !important;
+  width: 431px !important;
+ 
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 2px;
+  background-color: #fbf1dc;
+ 
+}
+.selctcam {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.select-label {
+  font-weight: bold;
+  font-size: large;
+  margin-right: 10px; /* Add spacing between label and select */
+  margin-top: 10px;
+}
+
+.select-dropdown {
+  padding: 8px;
+  cursor: pointer;
+ 
+  margin-right: 10px;
+  background-color: #eddada;
+  border: none;
+  border-radius: 10px;
+}
+
+.select-dropdown option{
+    background-color: rgb(209, 231, 250);
+    width: 250px;
+
+}
+.select-dropdown:hover {
+  background-color: #eddada;
+}
+
+.switch-button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #37B5B6;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  text-decoration: none;
+  transition: all 250ms;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+ 
+}
+
+.switch-button:hover {
+  background-color: #84f0c3;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+
+.cap{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.cap button{
+  background-color: #bd2850;
+  color: white;
+  padding: 8px 16px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  text-decoration: none;
+  transition: all 250ms;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+.cap button:hover{
+  background-color:#ef438b;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  cursor: pointer;
+}
+
+.videoframe{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+
+}
+::ng-deep .videoframe video{
+  height: 300px !important;
+  width: 400px !important;
+}
+
